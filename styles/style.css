@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #330066;
+  color: #4aecf7;
+  font-family: "Comfortaa", cursive;
+  max-width: 1440px;
+  margin: auto;
+  transition: 1s;
+}
+
+a {
+  text-decoration: none;
+  color: #4aecf7;
+}
+
+header {
+  font-size: 30px;
+  max-width: 1440px;
+}
+
+.header-container {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  margin-top: 20px;
+  width: 100px;
+  margin-left: auto;
+}
+
+.lang {
+  cursor: pointer;
+  transition: 1s;
+}
+
+.lang-act {
+  cursor: pointer;
+  transition: 1s;
+  color: #ffffff;
+}
+
+.lang:hover,
+.lang-act:hover {
+  color: #ffffff;
+}
+
+.img {
+  width: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  transition: 15s;
+}
+
+.img-aff {
+  border: 29px dashed #330066;
+  width: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 10px;
+  padding: 5px 10px;
+  /* min-height: 675px; */
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #d269ff;
+  color: white;
+}
+
+.button {
+  color: #4aecf7;
+  text-align: center;
+  background-color: blueviolet;
+  font-family: "Comfortaa", cursive;
+  font-size: 17.5px;
+  border: 2px solid blueviolet;
+  border-radius: 15px;
+  width: 275px;
+  min-height: 45px;
+  line-height: 37px;
+  text-transform: uppercase;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotation {
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+footer {
+  max-width: 1440px;
+  height: 55px;
+  margin: 0 10px;
+  padding: 5px 10px;
+  font-size: 25px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.copyright {
+  padding-right: 20px;
+}
+
+.github {
+  padding: 0 20px;
+  transition: 1s;
+}
+
+.footer-logo {
+  background-image: url(../assets/svg/rss.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 1s;
+  height: 50px;
+  width: 135px;
+  margin-left: auto;
+  filter: invert(45%) sepia(75%) saturate(462%) hue-rotate(143deg) brightness(98%) contrast(98%);
+}
+
+.footer-logo:hover,
+.github:hover {
+  filter: invert(0%) sepia(0%) saturate(18%) hue-rotate(305deg) brightness(106%) contrast(104%);
+}/*# sourceMappingURL=style.css.map */
